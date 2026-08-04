@@ -34,3 +34,16 @@ def calcular_media(notas: list[float]) -> float:
     return round(media, 2)
 
 print(f'\nA média de todas as notas é: {calcular_media([6, 10, 7.5])}')
+
+#10
+
+def calcular_salario(salario: float) -> float:
+    if salario > 2000:
+        return salario * 1.07
+    else:
+        return salario * 1.15
+
+print(f'\nO novo salário é: {calcular_salario(2300)}')
+
+#11
+
